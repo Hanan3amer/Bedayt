@@ -53,7 +53,7 @@ export default function Navbar() {
           <ul className="flex flex-col md:flex-row p-4 md:p-0 mt-4 lg:text-md md:font-medium rounded-lg lg:space-x-8 rtl:space-x-reverse md:mt-0 ">
             <li>
               <a
-                href="#home"
+                href="#"
                 onClick={() => handleLinkClick("home")}
                 className={`nav-link py-2 px-3 ${
                   activeLink === "home" ? "active" : ""

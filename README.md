@@ -1,12 +1,67 @@
-# React + Vite
+# Bedayt - Mental Health Platform 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-Currently, two official plugins are available:
+![Bedayt Screenshot](./public/screen.png) <!-- Add your actual screenshot -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> "Your mental health is the key to a happy life" - A platform dedicated to psychological well-being for Arabic-speaking communities.
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [https://bedayt.vercel.app/](https://bedayt.vercel.app/)
+
+## ✨ Features
+
+- Culturally-sensitive mental health resources in Arabic
+- Responsive design for all devices
+- Modern UI with smooth animations
+- Age-specific content sections
+- Easy-to-navigate interface
+
+## 🎯 Target Audience
+
+- Children & Adolescents
+- Adults & Working Professionals
+- Elderly Population
+- Married Couples
+- Mental Health Practitioners
+
+## 🛠 Tech Stack
+
+| Technology   | Purpose                   |
+| ------------ | ------------------------- |
+| React        | Frontend framework        |
+| Tailwind CSS | Utility-first CSS styling |
+| React Slick  | Interactive carousels     |
+| React Icons  | Comprehensive icon set    |
+| Flowbite     | UI component library      |
+| Vercel       | Cloud deployment platform |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm (v8 or later)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/bedayt.git
+
+# Navigate to project directory
+cd bedayt
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start development server
+npm start
+# or
+yarn start
+```
