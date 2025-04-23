@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-almarai: "Almarai", sans-serif;
+  --color-mintGreen: #3cb4b4;
+  --color-gray: #f4f7f7;
+  --color-darkGray: #4d4d4d;
+  --color-lightGray: #717171;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-almarai);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-mintGreen);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nav-link {
+  @apply relative px-2 py-1 text-gray-900;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  height: 2px;
+  width: 40%;
+  background-color: var(--color-mintGreen);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link.active::after {
+  transform: scaleX(1);
+}
