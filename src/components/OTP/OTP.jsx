@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 export default function OTP() {
-  const [otpValues, setOtpValues] = useState(Array(4).fill(""));
   const inputRefs = useRef([]);
   return (
     <div className="  flex flex-col justify-center items-center bg-gray w-full">
@@ -18,28 +18,26 @@ export default function OTP() {
           id="otp"
           className="flex flex-row justify-center text-center px-2 mt-5"
         >
-          {Array(4)
+          {Array(5)
             .fill(0)
             .map((_, index) => (
               <input
                 key={index}
                 type="text"
                 maxLength={1}
-                value={otpValues[index]}
                 ref={(el) => (inputRefs.current[index] = el)}
                 className="m-2 h-12 w-12 text-center form-control rounded-xl bg-white border border-lightGray"
-                onKeyDown={(event) => handleKeyDown(event, index)}
               />
             ))}
         </div>
         <button
           type="button"
-          className="bg-mintGreen w-full p-2 text-white rounded-xl mt-4 cursor-pointer"
+          className="bg-mintGreen w-full p-2 text-white rounded-xl mt-4 cursor-pointer my-5"
         >
           تأكيد
         </button>
         <Link className="text-darkGray ">
-          لم يصلك رمز <span className="text-mintGreen">اعادة ارسال </span>
+          لم يصلك رمز ؟<span className="text-mintGreen">اعادة ارسال </span>
         </Link>
       </div>
     </div>
