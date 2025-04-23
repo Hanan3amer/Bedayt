@@ -40,8 +40,8 @@ body {
 .nav-link::after {
   content: "";
   position: absolute;
-  right: 5px;
-  bottom: 0;
+  left: 10px;
+  bottom: 0px;
   height: 2px;
   width: 40%;
   background-color: var(--color-mintGreen);

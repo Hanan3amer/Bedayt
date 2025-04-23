@@ -12,32 +12,32 @@ export default function Footer() {
           <img src={logo} className="h-14" alt="Flowbite Logo" />
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#about" className="hover:underline me-4 md:me-6">
+              <a href="#about" className="hover:underline me-2 md:me-6">
                 من نحن
               </a>
             </li>
             <li>
-              <a href="#sevices" className="hover:underline me-4 md:me-6">
+              <a href="#sevices" className="hover:underline me-2 md:me-6">
                 خدمات
               </a>
             </li>
             <li>
-              <a href="#specialists" className="hover:underline me-4 md:me-6">
+              <a href="#specialists" className="hover:underline me-2 md:me-6">
                 اطباء متخصصين
               </a>
             </li>
             <li>
-              <a href="#targetgroup" className="hover:underline me-4 md:me-6">
+              <a href="#targetgroup" className="hover:underline me-2 md:me-6">
                 الفئات المستهدفه
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:underline">
+              <a href="#contact" className="hover:underline me-2 md:me-6">
                 تواصل معنا
               </a>
             </li>
           </ul>
-          <ul className="flex flex-wrap items-center justify-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 text-center">
+          <ul className="flex flex-wrap items-center justify-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 text-center gap-3">
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">
                 <FaFacebook size={20} />
